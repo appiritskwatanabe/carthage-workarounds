@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEFAULT_COMMAND="carthage update --no-use-binaries --platform iOS"
+DEFAULT_COMMAND="carthage update --no-use-binaries --platform iOS --use-ssh"
 WORKING_DIR=$(pwd)
 
 NORMAL='\033[0m'
